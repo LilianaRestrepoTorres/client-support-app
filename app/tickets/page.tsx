@@ -2,9 +2,10 @@
 import React, { useEffect, useState } from "react";
 import api from "../api/api";
 import TicketCard from "../(shared)/TicketCard";
+import { FormattedTicket } from "../types";
 
 const Tickets: React.FC = () => {
-  const [tickets, setTickets] = useState([]);
+  const [tickets, setTickets] = useState<FormattedTicket[]>([]);
 
   useEffect(() => {
     const fetchTickets = async () => {

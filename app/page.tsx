@@ -1,3 +1,5 @@
+import Report from "./(home)/report";
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between min-h-screen p-24">
@@ -16,15 +18,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="z-10 items-center justify-between w-full max-w-xl gap-5 font-mono text-sm lg:flex">
-        <input
-          className="w-full px-3 py-1 border-2 rounded-md bg-wh-50 min-w-[200px]"
-          placeholder="Type your problem here..."
-        />
-        <button className="border-4 bg-accent-orange text-wh-10 font-semibold w-5/6 min-w-[100px] py-2 px-5">
-          Report Issue
-        </button>
-      </div>
+      <Report />
 
       <div className="grid mb-4 text-center lg:mb-0 lg:grid-cols-1 lg:text-left">
         <a
