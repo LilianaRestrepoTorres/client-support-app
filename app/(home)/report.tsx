@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import api from "../api/api";
-import { FormattedTicket } from '../types';
+import { FormattedTicket } from "../types";
 
 interface BotData {
   bot_id: string;
