@@ -11,7 +11,10 @@ Welcome to the user interface of our AI-powered Support Tickets system. This fro
 ## Demo 🚀
 
 
-https://github.com/LilianaRestrepoTorres/client-support-app/assets/17114826/aecbd03a-1113-4edf-a8c9-4c654b4b1bce
+
+
+https://github.com/LilianaRestrepoTorres/client-support-app/assets/17114826/8d958ab8-8214-43bf-929b-c240af848602
+
 
 
 
