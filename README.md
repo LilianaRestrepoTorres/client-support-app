@@ -1,34 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI Support Tickets System 🤖 :computer:
 
-## Getting Started
+[![Built with Next.js](https://img.shields.io/badge/Built%20with-Next.js-000000.svg)](https://nextjs.org/)
+[![Powered by AI](https://img.shields.io/badge/Powered%20by-Artificial%20Intelligence-33ccff.svg)](https://openai.com/)
+[![Uses Tailwind CSS](https://img.shields.io/badge/Uses-Tailwind%20CSS-38b2ac.svg)](https://tailwindcss.com/)
+[![Written in TypeScript](https://img.shields.io/badge/Written%20in-TypeScript-007acc.svg)](https://www.typescriptlang.org/)
 
-First, run the development server:
+## Project Overview
+Welcome to the user interface of our AI-powered Support Tickets system. This frontend application is built using the power of Next.js 13, TailwindCSS, and TypeScript, providing a smooth and intuitive user experience. It allows users to **interact with our Python-based AI system**, which processes natural language reports of issues, organizes the data into tickets, and maintains the ticket lifecycle.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Demo Project 🚀
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+https://github.com/LilianaRestrepoTorres/client-support-app/assets/17114826/aecbd03a-1113-4edf-a8c9-4c654b4b1bce
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Key Features
+- **AI Content Generation:** The system accepts natural language reports of problems with bots or orders. Then, process the input to extract **problem location**, **problem type** (software, hardware, or field) and a **summary** of the issue.
+- **Support during AI Model Downtime:** We've added error handling to ensure continuous operation even when the GPT-3.5-turbo is offline or at its request limit. We support this feature by creating tickets for prompt assistance.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Installation and Usage
+1. Clone the repository: `git clone https://github.com/LilianaRestrepoTorres/client-support.git`
+2. Add your API KEY in a `.env` file with the variable name `OPENAI_KEY`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run dev`
+5. Open your browser and navigate to: `http://localhost:3000`
 
-## Deploy on Vercel
+Feel free to explore the application, create tickets, and witness the power of **AI-generated** content!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Enjoy using the AI Support Ticket System! :rocket:
+
+---
+ Built with 💚 by me.
