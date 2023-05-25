@@ -8,7 +8,7 @@
 ## Project Overview
 Welcome to the user interface of our AI-powered Support Tickets system. This frontend application is built using the power of Next.js 13, TailwindCSS, and TypeScript, providing a smooth and intuitive user experience. It allows users to **interact with our Python-based AI system**, which processes natural language reports of issues, organizes the data into tickets, and maintains the ticket lifecycle.
 
-## Demo Project 🚀
+## Demo 🚀
 
 
 https://github.com/LilianaRestrepoTorres/client-support-app/assets/17114826/aecbd03a-1113-4edf-a8c9-4c654b4b1bce
